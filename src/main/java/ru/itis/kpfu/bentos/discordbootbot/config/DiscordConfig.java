@@ -44,7 +44,7 @@ public class DiscordConfig {
         intents.add(GatewayIntent.DIRECT_MESSAGE_REACTIONS);
         intents.add(GatewayIntent.DIRECT_MESSAGE_TYPING);
 
-        JDABuilder builder = JDABuilder.create("NzA4NzE0ODk2OTMzNTE5NDAx.XrfDFQ.FOoI9AxrN_4_cLpC6tJtPSC89B8", intents);
+        JDABuilder builder = JDABuilder.create("", intents);
 
         builder.setActivity(Activity.playing("Space Rangers HD: A War Apart"));
         builder.addEventListeners(context.getBean(MessageReceived.class));
