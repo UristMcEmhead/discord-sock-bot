@@ -13,6 +13,7 @@ application.properties
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+.mvn
 
 # Package Files #
 *.jar
@@ -22,6 +23,9 @@ application.properties
 *.zip
 *.tar.gz
 *.rar
+*.md
+mvnw
+*.cmd
 
 # Intelij IDEA files
 .idea
